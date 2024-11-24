@@ -173,7 +173,7 @@ export class CyberpunkActorSheet extends ActorSheet {
     // TODO: Refactor these skill interactivity stuff into their own methods
     html.find(".skill-level").click((event) => event.target.select()).change((event) => {
       let skill = this.actor.items.get(event.currentTarget.dataset.skillId);
-      let target = skill.system.isChipped ? "system.chipLevel" : "system.level";
+      let target = skill.system.isChipped ? "system.chipLevel" : "system.levelFinal";
       let updateData = {_id: skill.id};
       updateData[target] = parseInt(event.target.value, 10);
       this.actor.updateEmbeddedDocuments("Item", [updateData]);

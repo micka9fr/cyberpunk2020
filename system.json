@@ -14,8 +14,15 @@
       "name": "OctarineSourceror",
       "discord": "octarinesorcerer"
     },
-    { "name": "cybersmily" },
-    { "name": "drowzero0" }
+    {
+      "name": "cybersmily"
+    },
+    {
+      "name": "drowzero0"
+    },
+    {
+      "name": "micka9fr"
+    }
   ],
   "scripts": [],
   "esmodules": ["module/cyberpunk2020.js"],
