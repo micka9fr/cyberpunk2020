@@ -4,7 +4,7 @@
     {{!-- TODO: Add data-item-id for this to work --}}
     {{#with skill.system}}
         <label class="chip-toggle" data-skill-id="{{../skill.id}}">
-            <div class="skill-stat-display">
+            <div class="skill-stat-display {{CPLocal (properCase stat)}}">
                 {{~#if isRoleSkill~}}
                     {{CPLocal (properCase stat)}} [{{CPLocal "Role"}}]
                 {{~else}}

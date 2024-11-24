@@ -197,6 +197,8 @@ export function convertOldSkill(name, skillData) {
         flavor: "",
         notes: "",
         level: skillData.value || 0,
+        levelMod: 0,
+        LevelFinal: 0,
         chipLevel: skillData.chipValue || 0,
         isChipped: skillData.chipped,
         ip: skillData.ip,
