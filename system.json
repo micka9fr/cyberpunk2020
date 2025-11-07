@@ -219,6 +219,11 @@
       "lang": "ru",
       "name": "Russian",
       "path": "lang/ru.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
     }
   ],
   "socket": false,
@@ -229,8 +234,8 @@
   },
   "primaryTokenAttribute": null,
   "secondaryTokenAttribute": null,
-  "url": "https://github.com/SuperCoon666/cyberpunk2020",
-  "manifest": "https://raw.githubusercontent.com/SuperCoon666/cyberpunk2020/main/system.json",
-  "download": "https://github.com/SuperCoon666/cyberpunk2020/archive/v1.0.3.zip"
+  "url": "https://github.com/micka9fr/cyberpunk2020",
+  "manifest": "https://raw.githubusercontent.com/micka9fr/cyberpunk2020/main/system.json",
+  "download": "https://github.com/micka9fr/cyberpunk2020/archive/v1.0.3.zip"
 }
   
